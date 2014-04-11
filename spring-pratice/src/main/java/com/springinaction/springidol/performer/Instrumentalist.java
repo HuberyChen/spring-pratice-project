@@ -1,4 +1,4 @@
-package com.springinaction.springidol;
+package com.springinaction.springidol.performer;
 
 /**
  * @author hubery.chen
@@ -6,6 +6,11 @@ package com.springinaction.springidol;
 public class Instrumentalist implements Performer {
 
     public Instrumentalist() {
+    }
+
+    public Instrumentalist(String song, Instrument instrument) {
+        this.song = song;
+        this.instrument = instrument;
     }
 
     private String song;

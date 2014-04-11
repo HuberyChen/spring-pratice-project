@@ -1,5 +1,5 @@
 //<start id="poem_java" /> 
-package com.springinaction.springidol;
+package com.springinaction.springidol.poem;
 
 public interface Poem {
   void recite();

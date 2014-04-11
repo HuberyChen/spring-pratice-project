@@ -1,5 +1,5 @@
 //<start id="song_java" /> 
-package com.springinaction.springidol;
+package com.springinaction.springidol.poem;
 
 public class Song {
   private final String title;

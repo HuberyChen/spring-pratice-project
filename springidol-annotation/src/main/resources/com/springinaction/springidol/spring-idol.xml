@@ -9,11 +9,11 @@
 
   <context:annotation-config />
 
-  <bean id="eddie" class="com.springinaction.springidol.Instrumentalist">
+  <bean id="eddie" class="com.springinaction.springidol.performer.Instrumentalist">
     <property name="song" value="Running with the Devil" />
   </bean>
   
-  <bean class="com.springinaction.springidol.Guitar" />
+  <bean class="com.springinaction.springidol.performer.Guitar" />
 
   <bean id="piano" class="com.springinaction.springidol.Piano" />
 </beans>

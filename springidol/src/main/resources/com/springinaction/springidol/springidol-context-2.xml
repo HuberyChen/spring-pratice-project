@@ -6,7 +6,7 @@
 
   <!--<start id="duke_bean" />-->
   <bean id="duke" 
-      class="com.springinaction.springidol.Juggler">
+      class="com.springinaction.springidol.performer.Juggler">
     <constructor-arg value="15" />
   </bean>
   <!--<end id="duke_bean" />-->

@@ -8,9 +8,9 @@
      http://www.springframework.org/schema/aop/spring-aop.xsd">
 
   <bean id="eddie"
-      class="com.springinaction.springidol.Instrumentalist">
+      class="com.springinaction.springidol.performer.Instrumentalist">
     <property name="instrument">
-      <bean class="com.springinaction.springidol.Guitar" />
+      <bean class="com.springinaction.springidol.performer.Guitar" />
     </property>
   </bean>
 
@@ -23,7 +23,7 @@
   <aop:config>
     <aop:aspect ref="audience">
       <aop:pointcut id="performance" expression=
-          "execution(* com.springinaction.springidol.Performer.perform(..))" 
+          "execution(* com.springinaction.springidol.performer.Performer.perform(..))"
           />
 
       <aop:around 

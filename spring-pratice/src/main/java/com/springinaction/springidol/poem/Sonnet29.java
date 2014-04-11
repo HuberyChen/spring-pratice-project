@@ -1,5 +1,7 @@
 //<start id="sonnet29_java" /> 
-package com.springinaction.springidol;
+package com.springinaction.springidol.poem;
+
+import com.springinaction.springidol.poem.Poem;
 
 public class Sonnet29 implements Poem {
   private static String[] LINES = {

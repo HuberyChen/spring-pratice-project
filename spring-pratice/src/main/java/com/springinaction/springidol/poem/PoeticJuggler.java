@@ -1,4 +1,6 @@
-package com.springinaction.springidol;
+package com.springinaction.springidol.poem;
+
+import com.springinaction.springidol.performer.Juggler;
 
 /**
  * @author hubery.chen
