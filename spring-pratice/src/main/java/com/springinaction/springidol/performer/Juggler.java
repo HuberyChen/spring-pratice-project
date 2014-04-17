@@ -1,7 +1,5 @@
 package com.springinaction.springidol.performer;
 
-import com.springinaction.springidol.performer.Performer;
-
 /**
  * @author hubery.chen
  */

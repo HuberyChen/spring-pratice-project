@@ -1,7 +1,7 @@
 package com.springinaction.springidol.atinject;
 
 import javax.inject.Inject;
-import java.security.Provider;
+import javax.inject.Provider;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -13,6 +13,6 @@ public class KnifeJuggler {
 
     @Inject
     public KnifeJuggler(Provider<Knife> knifeProvider) {
-        knives = new HashSet<>()
+        knives = new HashSet<>();
     }
 }

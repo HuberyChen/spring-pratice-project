@@ -12,4 +12,6 @@
     <bean id="guitar" class="com.springinaction.springidol.performer.Guitar"/>
 
     <bean id="hubery" class="com.springinaction.springidol.performer.AnnotationInstrumentalist"/>
+
+    <bean class="com.springinaction.springidol.atinject.Config"/>
 </beans>
