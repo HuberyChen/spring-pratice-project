@@ -7,9 +7,12 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+/**
+ * @author hubery.chen
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("spring-idol-introductions.xml")
-public class AspectTest {
+@ContextConfiguration("spring-idol-around.xml")
+public class AspectAroundTest {
     @Autowired
     ApplicationContext context;
 
